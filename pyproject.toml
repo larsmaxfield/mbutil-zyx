@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mbutil_zyx"
-authors = [{ name="Lars Maxfield", email="" }]
+authors = [{ name="Lars Maxfield", email="maxfield.lars@gmail.com" }]
 description = "MBUtil with ZYX scheme"
 long_description = "Importer and Exporter of MBTiles with the zyx scheme (from vips dzsave --google) in the latest release"
 long_description_content_type = "text/plain"
