@@ -2,7 +2,6 @@ from setuptools import setup
 
 setup(
     name='mbutil_zyx',
-    version='0.4.0',
     author='Lars Maxfield',
     author_email='null',
     packages=['mbutil_zyx'],
