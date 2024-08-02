@@ -4,13 +4,17 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mbutil_zyx"
-authors = [{ name="Lars Maxfield", email="maxfield.lars@gmail.com" }]
+authors = [
+  { name="Lars Maxfield" },
+  ]
 description = "MBUtil with ZYX scheme"
 readme = "README.md"
 requires-python = ">=3"
 version = "0.4.0"
+license = {file = "LICENSE.md"}
+keywords = ["mbutil", "zyx", "vips", "libvips", "pyvips", "dzsave"]
 classifiers = [
-    "Programming Language :: Python :: 3",
+    "Programming Language :: Python",
     "License :: OSI Approved :: BSD License",
     "Operating System :: OS Independent"]
 
