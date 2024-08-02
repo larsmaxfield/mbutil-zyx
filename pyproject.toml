@@ -10,7 +10,7 @@ authors = [
 description = "MBUtil with ZYX scheme"
 readme = "README.md"
 requires-python = ">=3"
-version = "0.4.0"
+version = "0.4.1"
 license = {file = "LICENSE.md"}
 keywords = ["mbutil", "zyx", "vips", "libvips", "pyvips", "dzsave"]
 classifiers = [
