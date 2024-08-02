@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# MBUtil: a tool for MBTiles files
+# MBUtilZYX: a tool for MBTiles files with the ZYX scheme
 # Supports importing, exporting, and more
 # 
 # (c) Development Seed 2012
@@ -10,7 +10,7 @@
 import logging, os, sys
 from optparse import OptionParser
 
-from mbutil import mbtiles_to_disk, disk_to_mbtiles, mbtiles_metadata_to_disk
+from mbutil_zyx import mbtiles_to_disk, disk_to_mbtiles, mbtiles_metadata_to_disk
 
 if __name__ == '__main__':
 

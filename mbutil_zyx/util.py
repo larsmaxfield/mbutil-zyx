@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# MBUtil: a tool for MBTiles files
+# MBUtilZYX: a tool for MBTiles files with the ZYX scheme
 # Supports importing, exporting, and more
 #
 # (c) Development Seed 2012

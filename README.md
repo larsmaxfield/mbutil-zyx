@@ -1,13 +1,11 @@
-# MBUtil
+# MBUtilZYX
 
-MBUtil is a utility for importing and exporting the [MBTiles](http://mbtiles.org/) format,
+MBUtilZYX is a fork of the MBUtil utility for importing and exporting the [MBTiles](http://mbtiles.org/) format,
 typically created with [Mapbox](http://mapbox.com/) [TileMill](http://mapbox.com/tilemill/).
 
 Before exporting tiles to disk, see if there's a [Mapbox Hosting plan](http://mapbox.com/plans/)
 or an open source [MBTiles server implementation](https://github.com/mapbox/mbtiles-spec/wiki/Implementations)
 that works for you - tiles on disk are notoriously difficult to manage.
-
-[![Build Status](https://secure.travis-ci.org/mapbox/mbutil.png)](http://travis-ci.org/mapbox/mbutil)
 
 **Note well**: this project is no longer actively developed. Issues and pull requests will be attended to when possible, but delays should be expected.
 
@@ -15,34 +13,34 @@ that works for you - tiles on disk are notoriously difficult to manage.
 
 Git checkout (requires git)
 
-    git clone https://github.com/mapbox/mbutil.git
-    cd mbutil
+    git clone https://github.com/larsmaxfield/mbutil_zyx.git
+    cd mbutil_zyx
     # get usage
-    ./mb-util -h
+    ./mb-util-zyx -h
 
-Then to install the mb-util command globally:
+Then to install the mb-util-zyx command globally:
 
     sudo python setup.py install
     # then you can run:
-    mb-util
+    mb-util-zyx
 
 Python installation (requires easy_install)
 
-    easy_install mbutil
-    mb-util -h
+    easy_install mbutil_zyx
+    mb-util-zyx -h
 
 ## Usage
 
-    $ mb-util -h
-    Usage: mb-util [options] input output
+    $ mb-util-zyx -h
+    Usage: mb-util-zyx [options] input output
 
     Examples:
 
         Export an mbtiles file to a directory of files:
-        $ mb-util world.mbtiles tiles # tiles must not already exist
+        $ mb-util-zyx world.mbtiles tiles # tiles must not already exist
 
         Import a directory of tiles into an mbtiles file:
-        $ mb-util tiles world.mbtiles # mbtiles file must not already exist
+        $ mb-util-zyx tiles world.mbtiles # mbtiles file must not already exist
 
     Options:
       -h, --help            Show this help message and exit
@@ -63,12 +61,12 @@ Python installation (requires easy_install)
 
     Export an `mbtiles` file to files on the filesystem:
 
-        mb-util World_Light.mbtiles adirectory
+        mb-util-zyx World_Light.mbtiles adirectory
 
 
     Import a directory into a `mbtiles` file
 
-        mb-util directory World_Light.mbtiles
+        mb-util-zyx directory World_Light.mbtiles
 
 ## Requirements
 
@@ -76,7 +74,7 @@ Python installation (requires easy_install)
 
 ## Metadata
 
-MBUtil imports and exports metadata as JSON, in the root of the tile directory, as a file named `metadata.json`.
+MBUtilZYX imports and exports metadata as JSON, in the root of the tile directory, as a file named `metadata.json`.
 
 ```javascript
 {
