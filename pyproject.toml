@@ -8,6 +8,7 @@ authors = [{ name="Lars Maxfield", email="maxfield.lars@gmail.com" }]
 description = "MBUtil with ZYX scheme"
 readme = "README.md"
 requires-python = ">=3"
+version = "0.4.0"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: BSD License",
