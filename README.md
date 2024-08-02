@@ -1,13 +1,7 @@
-# MBUtilZYX
+# MBUtil ZYX
 
-MBUtilZYX is a fork of the MBUtil utility for importing and exporting the [MBTiles](http://mbtiles.org/) format,
-typically created with [Mapbox](http://mapbox.com/) [TileMill](http://mapbox.com/tilemill/).
-
-Before exporting tiles to disk, see if there's a [Mapbox Hosting plan](http://mapbox.com/plans/)
-or an open source [MBTiles server implementation](https://github.com/mapbox/mbtiles-spec/wiki/Implementations)
-that works for you - tiles on disk are notoriously difficult to manage.
-
-**Note well**: this project is no longer actively developed. Issues and pull requests will be attended to when possible, but delays should be expected.
+MBUtil ZYX is a fork of the MBUtil utility for importing and exporting the [MBTiles](http://mbtiles.org/) format including the ZYX scheme from `vips dzsave --google`.
+This fork was created and [published to PyPI](https://pypi.org/project/mbutil-zyx) because the currently published version of `mbutil` on PyPI does not include the ZYX scheme.
 
 ## Installation
 
@@ -74,7 +68,7 @@ Python installation (requires easy_install)
 
 ## Metadata
 
-MBUtilZYX imports and exports metadata as JSON, in the root of the tile directory, as a file named `metadata.json`.
+MBUtil ZYX imports and exports metadata as JSON, in the root of the tile directory, as a file named `metadata.json`.
 
 ```javascript
 {
