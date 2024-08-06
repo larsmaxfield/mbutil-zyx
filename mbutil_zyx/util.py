@@ -276,6 +276,8 @@ def disk_to_mbtiles(directory_path, mbtiles_file, **kwargs):
 
     optimize_database(con, silent)
 
+    con.close()
+
 def mbtiles_metadata_to_disk(mbtiles_file, **kwargs):
     silent = kwargs.get('silent')
     if not silent:
